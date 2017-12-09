@@ -31,7 +31,7 @@ let clientTestsPath = "./test/UITests" |> FullName
 open Newtonsoft.Json
 open Newtonsoft.Json.Linq
 
-let dotnetcliVersion : string = 
+let dotnetcliVersion : string =
     try
         let content = File.ReadAllText "global.json"
         let json = Newtonsoft.Json.Linq.JObject.Parse content
@@ -148,7 +148,7 @@ Target "InstallClient" (fun _ ->
     run nodeTool "--version" __SOURCE_DIRECTORY__
     printfn "Yarn version:"
     run yarnTool "--version" __SOURCE_DIRECTORY__
-    run yarnTool "install --frozen-lockfile" __SOURCE_DIRECTORY__
+    run yarnTool "install" __SOURCE_DIRECTORY__
 )
 
 Target "BuildClient" (fun _ ->

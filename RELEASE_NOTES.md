@@ -1,3 +1,7 @@
+### 0.8.6 - 2017-10-13
+* Azure test
+
+
 ### 0.8.5 - 2017-10-13
 * Test docker container before we ship
 
