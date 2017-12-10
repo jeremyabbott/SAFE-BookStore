@@ -1,11 +1,11 @@
 module internal ReleaseNotes
 
-let Version = "1.0.0"
+let Version = "1.0.1"
 
 let IsPrerelease = false
 
 let Notes = """
-### 1.0.0 - 2017-12-10
+### 1.0.1 - 2017-12-10
 * F# is Amazing
 
 ### 0.8.6 - 2017-10-13
