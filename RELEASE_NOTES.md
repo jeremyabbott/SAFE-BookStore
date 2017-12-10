@@ -1,6 +1,8 @@
+### 1.0.0 - 2017-12-10
+* F# is Amazing
+
 ### 0.8.6 - 2017-10-13
 * Azure test
-
 
 ### 0.8.5 - 2017-10-13
 * Test docker container before we ship

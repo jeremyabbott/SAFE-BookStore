@@ -1,13 +1,15 @@
 module internal ReleaseNotes
 
-let Version = "0.8.6"
+let Version = "1.0.0"
 
 let IsPrerelease = false
 
 let Notes = """
+### 1.0.0 - 2017-12-10
+* F# is Amazing
+
 ### 0.8.6 - 2017-10-13
 * Azure test
-
 
 ### 0.8.5 - 2017-10-13
 * Test docker container before we ship
